@@ -10,6 +10,16 @@ body {
 	margin: 0;
 }
 
+label {
+	font-size: 35px;
+	font-weight: 600;
+}
+
+p {
+	font-size: 25px;
+	line-height: 1.2;
+}
+
 .container {
 	width: 100%;
 	margin: auto;
@@ -43,6 +53,9 @@ body {
 .col-11 {width: 91.66%}
 .col-12 {width: 100%}
 
+* {
+	box-sizing: border-box;
+}
 
 /****NAV BAR****/
 
@@ -93,6 +106,37 @@ ul.topnav li.dropdownIcon {
 	background: linear-gradient(#076DFF, #65a5ff) 
 }
 
+div.box {
+	text-align: center;
+	margin: 24px;
+	padding: 36px 24px 40px 24px;
+	border-radius: 15px;
+	background-color: #fff;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+	0 2px 3px 0 rgba(0,0,0,.1);
+}
+
+div.icon {
+	width: 100%;
+}
+
+button {
+	display: block;
+	text-align: center;
+	margin: 5px;
+	border-radius: 7px; 
+	padding: 15px 60px;
+	font-size: 32px;
+	font-weight: 700;
+	color: #fff;
+	background-color: #0069ff;
+}
+
+button.learnMore {
+	display: block;
+	margin: auto;
+}
+
 div.leftside-col {
 	margin-left: 30%;
 }
@@ -106,6 +150,11 @@ h1.largerHeader {
 	font-size: 56px;
 	margin: 0;
 	line-height: 70px;
+}
+
+h1.section-two-header {
+	font-size: 65px;
+	text-align: center;
 }
 
 form h2 {
@@ -151,9 +200,18 @@ input[type="text"]{
 		text-align: left;
 	}
 
-	.col-6 {
+	h1.section-two-header {
+		font-size: 50px;
+	}
+
+	.col-6, .col-4 {
 		width: 100%;
 		margin: 0;
+	}
+
+	div.box {
+		padding: 5px;
+		display: block;
 	}
 
 	div.leftside-col, div.rightside-col {
@@ -172,6 +230,3 @@ input[type="text"]{
 	}
 
 }
-
-
-
