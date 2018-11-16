@@ -20,6 +20,7 @@ p {
 	line-height: 1.2;
 }
 
+
 article p {
 	font-size: 35px;
 	padding: 20px;
@@ -215,11 +216,14 @@ input[type="text"]{
 		font-size: 50px;
 	}
 
+
 	article p {
 		font-size: 25px;
 	}
 
 	.col-6, .col-4, .col-7, .col-5 {
+=======
+	.col-6, .col-4 {
 		width: 100%;
 		margin: 0;
 	}
@@ -228,6 +232,7 @@ input[type="text"]{
 		padding: 5px;
 		display: block;
 	}
+
 
 	div.seaOtter {
 		margin: 10px;
@@ -251,5 +256,4 @@ input[type="text"]{
 		margin: 0;
 		overflow: hidden;
 	}
-
-}
+  }
